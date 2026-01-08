@@ -4,8 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        
-      }
+        mainColor: '#2496f3',
+        darkColor: '#1769aa',
+        lightColor: '#4dabf5'
+      },
     },
   },
   plugins: [],
