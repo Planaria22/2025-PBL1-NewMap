@@ -2,26 +2,38 @@ import {useState} from 'react';
 import Toggle from '../components/elements/toggle';
 import SearchBox from '../components/elements/searchbox';
 import Title from '../components/elements/title';
-import locationData from '../data/locations.json';
+import PhotoShow from '../components/elements/photoshow';
+import roomData from "../data/rooms.json"
 import ArrowDownward from "@mui/icons-material/ArrowDownward"
 import {Button, CircularProgress} from "@mui/material"
 
+type Room = {
+    id: string;
+    name: string;
+    floor: number;
+    building: string;
+}
+
+const buildingBImages = [
+    { label: '写真1', imgPath: '/images/buildingB/photo1.jpg' },
+    { label: '写真2', imgPath: '/images/buildingB/photo2.jpg' },
+    { label: '写真3', imgPath: '/images/buildingB/photo3.jpg' },
+];
+
 const TopPage = () => {
     const [isChecked, setIsChecked] = useState('left');
-    const [from, setFrom] = useState('');
-    const [to, setTo] = useState('');
+    const [from, setFrom] = useState<Room | null>(null);
+    const [fromInput, setFromInput] = useState("");
+    const [to, setTo] = useState<Room | null>(null);
+    const [toInput, setToInput] = useState("");
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
     const validateInputs = () => {
-        if(!from || !to) {
-            return "出発地と目的地を入力してください。"
-        }
-        if (from === to) {
-            return "出発地と目的地が同じです。"
-        }
-        return ""
-    }
+        if (!from || !to) return "出発地と目的地を選択してください。";
+        if (from.id === to.id) return "出発地と目的地が同じです。";
+        return "";
+    };
 
     const handleSearch = async () => {
         const message = validateInputs();
@@ -55,15 +67,19 @@ const TopPage = () => {
                 <SearchBox
                 label="出発地を入力"
                 value={from}
+                inputValue={fromInput}
                 onChange={setFrom}
-                options={locationData}
+                onInputChange={setFromInput}
+                options={roomData}
                 />
                 <ArrowDownward className="self-center" sx={{fontSize: 40, color: "black"}} />
                 <SearchBox
                 label="目的地を入力"
                 value={to}
+                inputValue={toInput}
                 onChange={setTo}
-                options={locationData}
+                onInputChange={setToInput}
+                options={roomData}
                 />
             </div>
             {error && <p className="text-red-600">{error}</p>}
@@ -74,6 +90,7 @@ const TopPage = () => {
             startIcon={loading ? <CircularProgress size={18} color="inherit" /> : null}>
                 {loading ? "検索中..." : "検索"}
             </Button>
+            <div className='my-8'><PhotoShow images={buildingBImages}/></div>
         </div>
     )
 }

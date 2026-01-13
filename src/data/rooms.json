@@ -1,0 +1,753 @@
+[
+    {
+        "id": "B101",
+        "name": "1-4普通教室 B101",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B102",
+        "name": "1-3普通教室 B102",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B104",
+        "name": "1-2普通教室 B104",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B105",
+        "name": "1-1普通教室 B105",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B108",
+        "name": "選択教室II B108",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B109",
+        "name": "選択教室I B109",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B101",
+        "name": "化学実験室 B110",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B111",
+        "name": "化学研究室 B111",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B112",
+        "name": "化学講義室 B112",
+        "floor": 1,
+        "building": "B"
+    },{
+        "id": "B201",
+        "name": "2年知能情報HR(2I) B201",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B202",
+        "name": "2年エレクトロニクスHR(2E) B202",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B204",
+        "name": "2年プロダクトデザインHR(2D) B204",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B205",
+        "name": "2年エネルギー機械HR(2M) B205",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B208",
+        "name": "美術室 B208",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B210",
+        "name": "英語研究室 B210",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B212",
+        "name": "語学ラボ B212",
+        "floor": 2,
+        "building": "B"
+    },{
+        "id": "B301",
+        "name": "特別教室 B301",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B303",
+        "name": "3年知能情報HR(3I) B303",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B304",
+        "name": "3年エレクトロニクスHR(3E) B304",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B305",
+        "name": "3年プロダクトデザインHR(3D) B305",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B306",
+        "name": "3年エネルギー機械HR(3M) B306",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B307",
+        "name": "物理講義室 B307",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B308",
+        "name": "物理研究室1 B308",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B309",
+        "name": "物理研究室2 B309",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B310",
+        "name": "物理実験室 B310",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "B312",
+        "name": "応用物理実験室 B312",
+        "floor": 3,
+        "building": "B"
+    },{
+        "id": "D100",
+        "name": "ゆめものがたり工房 D100",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D101",
+        "name": "パワーエレクトロニクス制御実験室 D101",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D102",
+        "name": "研究室川上 D102",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D103",
+        "name": "電子工学実験室 D103",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D104",
+        "name": "教員室平井 D104",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D105",
+        "name": "研究室中津 D105",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D106",
+        "name": "デザインエンジニアリング実験室 D106",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D107",
+        "name": "付加製造実験室 D107",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D108",
+        "name": "測量実験室 D108",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D109",
+        "name": "情報技術実習室 D109",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D110",
+        "name": "研究室榎倉 D110",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D111",
+        "name": "情報メディア実験室 D111",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D112",
+        "name": "信号解析実験室 D112",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D113",
+        "name": "可視化実験室 D113",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D114",
+        "name": "データ処理実験室 D114",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D115",
+        "name": "研究室安藤 D115",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D116",
+        "name": "研究室古田 D116",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D117",
+        "name": "ダイナミクスデザイン実験室 D117",
+        "floor": 1,
+        "building": "D"
+    },{
+        "id": "D203",
+        "name": "回路設計演習室 D203",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D204",
+        "name": "5年電子情報HR(5E) D204",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D205",
+        "name": "4年知能情報HR(4I) D205",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D206",
+        "name": "5年メカトロニクスHR(5H) D206",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D207",
+        "name": "4年プロダクトデザインHR(4D) D207",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D208",
+        "name": "5年機械システムHR(5M) D208",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D209",
+        "name": "4年エネルギー機械HR(4M) D209",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D211",
+        "name": "後援会室 D211",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D212",
+        "name": "知能情報実験室1 D212",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D213",
+        "name": "知能情報実験室1 D213",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D215",
+        "name": "メカトロニクス実験室1 D215",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D216",
+        "name": "メカトロニクス実験室1 D216",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D217",
+        "name": "機械システム制御実験室 D217",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D218",
+        "name": "コミュニケーション談話室1 D218",
+        "floor": 2,
+        "building": "D"
+    },{
+        "id": "D301",
+        "name": "ソフトウェア工学実験室 D301",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D302",
+        "name": "研究室木村 D302",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D304",
+        "name": "教員室須崎 D304",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D305",
+        "name": "通信工学実験室II D305",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D306",
+        "name": "メカトロニクス実験室2 D306",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D307",
+        "name": "メカトロニクス実験室2 D307",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D308",
+        "name": "メカトロニクス実験室3 D308",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D309",
+        "name": "メカトロニクス実験室3 D309",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D310",
+        "name": "研究室新妻 D310",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D311",
+        "name": "教員室片山 D311",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D312",
+        "name": "研究室和田 D312",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D313",
+        "name": "研究室前田(篤) D313",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D314",
+        "name": "研究室藪 D314",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D315",
+        "name": "研究室前田(一) D315",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D316",
+        "name": "専攻科実験室1 D316",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D317",
+        "name": "専攻科実験室2 D317",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D320",
+        "name": "通信工学実験室I D320",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D321",
+        "name": "研究室梅本 D321",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D322",
+        "name": "研究室金田 D322",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D323",
+        "name": "制御工学実験室 D323",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D324",
+        "name": "研究室中谷 D324",
+        "floor": 3,
+        "building": "D"
+    },{
+        "id": "D401",
+        "name": "画像工学実験室 D401",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D402",
+        "name": "研究室青木 D402",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D403",
+        "name": "知識工学実験室 D403",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D404",
+        "name": "研究室中才 D404",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D405",
+        "name": "研究室重井 D405",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D406",
+        "name": "研究室窪田 D406",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D407",
+        "name": "研究室早川 D407",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D408",
+        "name": "メカトロ基礎実験室 D408",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D409",
+        "name": "創作工作室 D409",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D410",
+        "name": "情報システム実験室(EWS) D410",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D413",
+        "name": "情報システム開発室 D413",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D414",
+        "name": "研究室吉田 D414",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "D416",
+        "name": "メカトロニクス実験室4 D416",
+        "floor": 4,
+        "building": "D"
+    },{
+        "id": "C101",
+        "name": "環境物質化学実験室I-4 C101",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C102",
+        "name": "研究室久野 C102",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C103",
+        "name": "研究室西岡 C103",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C104",
+        "name": "環境物質化学実験室I-5 C104",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C105",
+        "name": "環境物質化学実験室I-6 C105",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C106",
+        "name": "環境物質化学実験室I-7 C106",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C108",
+        "name": "環境物質化学実験室I-7 C108",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C110",
+        "name": "水循環光学実験室 C110",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C112",
+        "name": "研究室平林 C112",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C113",
+        "name": "環境物質化学実験室I-3 C113",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C114",
+        "name": "環境物質化学実験室I-2 C114",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C115",
+        "name": "環境物質バイオ実験室 C115",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C116",
+        "name": "環境物質化学実験室I-1 C116",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C119",
+        "name": "地盤工学実験室I C119",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C120",
+        "name": "地盤工学実験室II C120",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C121",
+        "name": "遠心載荷実験室 C121",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C122",
+        "name": "教員室大谷 C122",
+        "floor": 1,
+        "building": "C"
+    },{
+        "id": "C201",
+        "name": "選択教室IV C201",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C202",
+        "name": "予備教室 C202",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C203",
+        "name": "5年環境物質化学HR(5A) C203",
+        "floor": 2,
+        "building":"C"
+    },{
+        "id": "C204",
+        "name": "5年都市環境HR(5C) C204",
+        "floor": 2,
+        "building":"C"
+    },{
+        "id": "C205",
+        "name": "4年エレクトロニクスHR(4E) C205",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C206",
+        "name": "特別教室II C206",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C207",
+        "name": "環境物質化学実験室II-4 C207",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C208",
+        "name": "環境物質化学実験室II-3 C208",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C209",
+        "name": "研究室辻本 C209",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C210",
+        "name": "環境物質化学実験室II-2 C210",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C211",
+        "name": "環境物質化学実験室II-5 C211",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C212",
+        "name": "研究室東田 C212",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C215",
+        "name": "学友会執行部室 C215",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C216",
+        "name" :"コミュニケーション談話室2 C216",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C217",
+        "name": "環境物質化学実験室II-1 C217",
+        "floor": 2,
+        "building": "C"
+    },{
+        "id": "C301",
+        "name": "研究室倉橋 C301",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C302",
+        "name": "環境物質化学実験室III-2 C302",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C303",
+        "name": "環境物質化学実験室III-3 C303",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C305",
+        "name": "教員室新納 C305",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C306",
+        "name": "研究室白柳 C306",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C308",
+        "name": "都市建築デザインスタジオ C308",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C309",
+        "name": "専攻科講義室7 C309",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C310",
+        "name": "専攻科講義室6 C310",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C311",
+        "name": "学友会評議会室 C311",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C312",
+        "name": "環境物質化学実験室III-1 C312",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C315",
+        "name": "研究室鰺坂 C315",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C316",
+        "name": "教員室北村 C316",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C317",
+        "name": "都市交通テクノスタジオ C317",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C318",
+        "name": "専攻科講義室8 C318",
+        "floor": 3,
+        "building": "C"
+    },{
+        "id": "C401",
+        "name": "研究室野田 C401",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C402",
+        "name": "環境物質化学実験室IV-3 C402",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C403",
+        "name": "環境物質化学実験室IV-4 C403",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C406",
+        "name": "研究室山野 C406",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C407",
+        "name": "環境メディアスタジオ/知能情報実験室2 C407",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C408",
+        "name": "設計製図室 C408",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C409",
+        "name": "環境物質化学実験室IV-2 C409",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C410",
+        "name": "環境物質化学実験室IV-1 C410",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C415",
+        "name": "研究室田村 C415",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C416",
+        "name": "研究室岩本 C416",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C417",
+        "name": "環境デザインスタジオ C417",
+        "floor": 4,
+        "building": "C"
+    },{
+        "id": "C418",
+        "name": "クラフトルーム C418",
+        "floor": 4,
+        "building": "C"
+    }
+]
