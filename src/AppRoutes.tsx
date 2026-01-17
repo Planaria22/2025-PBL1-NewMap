@@ -5,15 +5,15 @@ import GuidePage from "./pages/GuidePage"
 import MapPage from "./pages/MapPage"
 
 const AppRoutes = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<TopPage />} />
-                <Route path="/guide" element={<GuidePage/>}/>
-                <Route path="/map" element={<MapPage/>}/>
-            </Routes>
-        </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<TopPage />} />
+        <Route path="/guide" element={<GuidePage/>}/>
+        <Route path="/map" element={<MapPage/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default AppRoutes
