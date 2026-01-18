@@ -51,7 +51,6 @@ export async function getViaImages(
   from: string,
   to: string,
 ): Promise<ImgPath[]> {
-  // 🔹 将来API化してもOKな構造
   await new Promise(r => setTimeout(r, 300)); // 擬似遅延
 
   const graphData = graphMap[position];

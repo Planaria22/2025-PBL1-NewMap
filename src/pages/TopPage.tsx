@@ -8,7 +8,6 @@ import ArrowDownward from "@mui/icons-material/ArrowDownward";
 import { Button, CircularProgress } from "@mui/material";
 import { getViaImages } from '../components/elements/graph';
 import type { ImgPath } from '../components/elements/graph';
-// 👆 useViaImages → 通常の async 関数にする想定
 
 type RouteType = 'left' | 'center' | 'right';
 
@@ -27,7 +26,7 @@ const TopPage = () => {
   const [toInput, setToInput] = useState("");
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const [images, setImages] = useState<ImgPath[]>([]); // ★追加
+  const [images, setImages] = useState<ImgPath[]>([]);
 
   const validateInputs = () => {
     if (!from || !to) return "出発地と目的地を選択してください。";
