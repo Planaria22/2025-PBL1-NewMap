@@ -6,7 +6,9 @@ import PhotoShow from '../components/elements/photoshow';
 import roomData from "../data/rooms.json"
 import ArrowDownward from "@mui/icons-material/ArrowDownward"
 import {Button, CircularProgress} from "@mui/material"
+import { useViaImages } from '../components/elements/graph'
 
+type RouteType = 'left' | 'center' | 'right';
 type Room = {
   id: string;
   name: string;
@@ -14,14 +16,8 @@ type Room = {
   building: string;
 }
 
-const buildingBImages = [
-  { label: '写真1', imgPath: '/images/buildingB/photo1.jpg' },
-  { label: '写真2', imgPath: '/images/buildingB/photo2.jpg' },
-  { label: '写真3', imgPath: '/images/buildingB/photo3.jpg' },
-];
-
 const TopPage = () => {
-  const [isChecked, setIsChecked] = useState('left');
+  const [isChecked, setIsChecked] = useState<RouteType>('left');
   const [from, setFrom] = useState<Room | null>(null);
   const [fromInput, setFromInput] = useState("");
   const [to, setTo] = useState<Room | null>(null);
@@ -52,7 +48,7 @@ const TopPage = () => {
   };
 
   const isDisabled = loading || !!validateInputs();
-
+  const images = useViaImages(isChecked, from?.id || "", to?.id || "");
   return(
     <div className="flex flex-col w-screen items-center justify-center">
       <Title>ホーム(ルート検索)</Title>
@@ -72,6 +68,7 @@ const TopPage = () => {
         onInputChange={setFromInput}
         options={roomData}
         />
+        <p className="text-black">{fromInput}</p>
         <ArrowDownward className="self-center" sx={{fontSize: 40, color: "black"}} />
         <SearchBox
         label="目的地を入力"
@@ -81,6 +78,7 @@ const TopPage = () => {
         onInputChange={setToInput}
         options={roomData}
         />
+        <p className="text-black">{to?.id}</p>
       </div>
       {error && <p className="text-red-600">{error}</p>}
       <Button
@@ -90,7 +88,10 @@ const TopPage = () => {
       startIcon={loading ? <CircularProgress size={18} color="inherit" /> : null}>
         {loading ? "検索中..." : "検索"}
       </Button>
-      <div className='my-8'><PhotoShow images={buildingBImages}/></div>
+      
+      <div className='my-8'>
+        <PhotoShow images={images}/>
+      </div>
     </div>
   )
 }
