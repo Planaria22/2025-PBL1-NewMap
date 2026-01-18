@@ -1,11 +1,10 @@
-import { useMemo } from 'react';
 import Graph from 'node-dijkstra';
 import GraphLeft from '../../data/graphLeft';
 import GraphCenter from '../../data/graphCenter';
 import GraphRight from '../../data/graphRight';
 import imgPaths from '../../data/imgpath';
 
-type ImgPath = {
+export type ImgPath = {
   id: string;
   src: string;
 };
@@ -17,6 +16,7 @@ export type Edge = {
 };
 export type graphData = Record<NodeId, Edge[]>;
 export type RouteType = 'left' | 'center' | 'right';
+
 /* =========
  * position → データの対応表
  * ========= */
@@ -44,33 +44,29 @@ function buildGraph(
 }
 
 /* =========
- * カスタムフック
+ * ルート画像取得（検索時に呼ぶ）
  * ========= */
-export function useViaImages(
+export async function getViaImages(
   position: RouteType,
   from: string,
   to: string,
-): ImgPath[] {
+): Promise<ImgPath[]> {
+  // 🔹 将来API化してもOKな構造
+  await new Promise(r => setTimeout(r, 300)); // 擬似遅延
+
   const graphData = graphMap[position];
+  const graph = buildGraph(graphData);
 
-  const graph = useMemo(() => buildGraph(graphData), [graphData]);
+  const path = graph.path(from, to) as string[] | null;
+  if (!path || path.length <= 2) return [];
 
-  return useMemo(() => {
-    // ① 最短経路
-    const path = graph.path(from, to) as string[] | null;
-    if (!path || path.length <= 2) return [];
+  const viaNodes = path.slice(1, -1);
 
-    // ② 先頭・末尾を削除
-    const viaNodes = path.slice(1, -1); // ["C", "B"]
+  const imgMap = new Map(
+    imgPaths.map(img => [img.id, img]),
+  );
 
-    // ③ id → imgPath の対応表を作る
-    const imgMap = new Map(
-      imgPaths.map(img => [img.id, img]),
-    );
-
-    // ④ 順序を保ったまま変換
-    return viaNodes
-      .map(id => imgMap.get(id))
-      .filter((v): v is ImgPath => v !== undefined);
-  }, [from, to, graph]);
+  return viaNodes
+    .map(id => imgMap.get(id))
+    .filter((v): v is ImgPath => v !== undefined);
 }
