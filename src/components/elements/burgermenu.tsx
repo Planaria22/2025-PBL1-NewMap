@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {Menu, Close, Map, Home, Pinch, QuestionMark} from '@mui/icons-material';
 import {Box, Button, Drawer, List, ListItem, ListItemButton, ListItemText, ListItemIcon} from '@mui/material';
 
@@ -41,7 +42,7 @@ const BurgerMenu = () => {
               const Icon = iconMap[item.icon];
               return (
                 <ListItem key={item.title}>
-                  <ListItemButton href={item.path}>
+                  <ListItemButton component={Link} to={item.path}>
                     <ListItemIcon><Icon /></ListItemIcon>
                     <ListItemText primary={item.titleJP} />
                   </ListItemButton>

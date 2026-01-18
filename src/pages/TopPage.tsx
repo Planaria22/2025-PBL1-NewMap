@@ -8,6 +8,7 @@ import ArrowDownward from "@mui/icons-material/ArrowDownward";
 import { Button, CircularProgress } from "@mui/material";
 import { getViaImages } from '../components/elements/graph';
 import type { ImgPath } from '../components/elements/graph';
+import { Link } from 'react-router-dom';
 
 type RouteType = 'left' | 'center' | 'right';
 
@@ -63,10 +64,11 @@ const TopPage = () => {
   return (
     <div className="flex flex-col w-screen items-center justify-center">
       <Title>ホーム(ルート検索)</Title>
-
       <p className="text-4xl text-center py-24 text-black">
         初めてご利用される方は<br />
-        <a className="text-blue-700 underline" href="/guide">地図の見方</a>
+        <Link to="/guide" className="text-blue-700 underline">
+          地図の見方
+        </Link>
         をご覧ください。
       </p>
 
