@@ -3,6 +3,7 @@ import TopPage from "./pages/TopPage"
 import GuidePage from "./pages/GuidePage"
 import MapPage from "./pages/MapPage"
 import AboutPage from "./pages/AboutPage"
+import Notfoundpage from "./pages/NotfoundPage"
 
 const AppRoutes = () => {
   return (
@@ -11,6 +12,7 @@ const AppRoutes = () => {
       <Route path="/guide" element={<GuidePage />} />
       <Route path="/map" element={<MapPage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="*" element={<Notfoundpage />} />
     </Routes>
   )
 }
