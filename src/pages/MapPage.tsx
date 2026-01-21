@@ -6,6 +6,7 @@ import {
   MenuItem
 } from "@mui/material";
 import { useState, useId } from "react";
+import legend from "/images/maps/hanrei.png"
 
 const imageMap: Record<string, string> = {
   全体: "/images/maps/zentai.png",
@@ -28,6 +29,7 @@ const MapPage = () => {
       <div className="text-black text-center text-xl m-2">
         建物の詳細を見ることができます。
       </div>
+      <img src={legend} alt="凡例" className="w-full max-w-3xl"></img>
       <FormControl fullWidth>
         <InputLabel id={labelId}>建物を選択</InputLabel>
         <Select
@@ -44,7 +46,7 @@ const MapPage = () => {
         </Select>
       </FormControl>
 
-      <div className="w-full max-w-3xl">
+      <div className="w-full max-w-3xl my-8">
         <img
           src={imageMap[selected]}
           alt={selected}

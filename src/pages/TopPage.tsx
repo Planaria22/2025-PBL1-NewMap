@@ -10,7 +10,7 @@ import { getViaImages } from '../components/elements/graph';
 import type { ImgPath } from '../components/elements/graph';
 import { Link } from 'react-router-dom';
 
-type RouteType = 'left' | 'center' | 'right';
+type RouteType = 'left' | 'right';
 
 type Room = {
   id: string;

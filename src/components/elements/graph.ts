@@ -1,6 +1,5 @@
 import Graph from 'node-dijkstra';
 import GraphLeft from '../../data/graphLeft';
-import GraphCenter from '../../data/graphCenter';
 import GraphRight from '../../data/graphRight';
 import imgPaths from '../../data/imgpath';
 
@@ -15,14 +14,13 @@ export type Edge = {
   cost: number;
 };
 export type graphData = Record<NodeId, Edge[]>;
-export type RouteType = 'left' | 'center' | 'right';
+export type RouteType = 'left' | 'right';
 
 /* =========
  * position → データの対応表
  * ========= */
 const graphMap: Record<RouteType, graphData> = {
   left: GraphLeft,
-  center: GraphCenter,
   right: GraphRight,
 };
 
