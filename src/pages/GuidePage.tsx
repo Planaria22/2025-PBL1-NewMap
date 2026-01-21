@@ -3,7 +3,7 @@ import Title from "../components/elements/title";
 const GuidePage = () => {
   return(
     <div className="flex flex-col w-screen items-center justify-center">
-      <Title>このサイトの使い方</Title>
+      <Title>ルート検索の使い方</Title>
       <div className="text-black text-2xl m-8">
         <ol className="list-decimal">
           <li>トグルで希望するルートを選択</li>
