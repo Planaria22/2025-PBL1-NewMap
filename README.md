@@ -1,73 +1,19 @@
-# React + TypeScript + Vite
+# OMUCT Universal Map
+# What is this
+本リポジトリは大阪公大高専のバリアフリーに対応した非公式なマップサイトのリポジトリです。
+# Technology Stacks
+## React
+Meta社によって開発されたJavaScriptライブラリ。コンポーネント指向での開発が可能で、関数型コンポーネントによって開発を行う。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Vite
+フロントエンド向けの高速な開発サーバー及びビルドツール。
 
-Currently, two official plugins are available:
+## Tailwind CSS
+utility classを活用したユーティリティファーストなCSSフレームワーク。class指定により素早くスタイルを適用することができる。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Material UI
+Googleが提唱するマテリアルデザインに基づいたReact向けUIコンポーネントライブラリ。一貫したデザインの豊富なUIコンポーネントを利用できる。
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## node-dijkstra
+Node.js環境でダイクストラアルゴリズムを利用できるように設計されたライブラリである。シンプルなAPIで実行でき、ノードとエッジ、コストを定義することで最短経路を算出できる。
+[Github Repository](https://github.com/albertorestifo/node-dijkstra)
